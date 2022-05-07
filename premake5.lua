@@ -25,6 +25,7 @@ project "Garage"
 
 	includedirs
 	{
+		"%{prj.name}/src",
 		"%{prj.name}/vendor/spdlog/include"
 	}
 	
@@ -69,7 +70,8 @@ files
 	includedirs
 	{
 		"Garage/vendor/spdlog/include",
-		"Garage/src"
+		"Garage/src",
+		"%{prj.name}/src"
 	}
 
 	links

@@ -4,6 +4,9 @@
     <Filter Include="Garage">
       <UniqueIdentifier>{CCBF98B4-B861-C38A-A11C-D7DE8D5D4ADB}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Garage\Events">
+      <UniqueIdentifier>{302E57C7-9CEE-D2FD-6529-1C7BD1A817DA}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Garage.h" />
@@ -16,9 +19,15 @@
     <ClInclude Include="src\Garage\EntryPoint.h">
       <Filter>Garage</Filter>
     </ClInclude>
+    <ClInclude Include="src\Garage\Events\Event.h">
+      <Filter>Garage\Events</Filter>
+    </ClInclude>
     <ClInclude Include="src\Garage\Log.h">
       <Filter>Garage</Filter>
     </ClInclude>
+    <ClInclude Include="src\Garage\Events\KeyEvent.h" />
+    <ClInclude Include="src\Garage\Events\MouseEvent.h" />
+    <ClInclude Include="src\Garage\Events\ApplicationEvent.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Garage\Application.cpp">

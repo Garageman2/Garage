@@ -1,5 +1,6 @@
 #pragma once
 #include "Core.h"
+#include "Events/Event.h"
 
 namespace Garage {
 	class GARAGE_API Application
